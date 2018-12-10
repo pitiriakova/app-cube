@@ -1,0 +1,9 @@
+<div class="play-board">
+  <div class="cubes">
+    <div *ngFor="let player of players">
+      <div class="player-name">{{ player.name }}</div>
+      <app-cube [player]="player" (newResultAdded)="checkGameStatus()"></app-cube>
+      <span class="result-text"> {{ player.result === 0 ? '-' : player.result }} </span>
+    </div>
+  </div>
+</div>

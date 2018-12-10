@@ -1,0 +1,31 @@
+.play-board {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player-name {
+  font-size: 4rem;
+  color: hsla(  196, 100%, 50%, 0.7);
+  font-weight: bold;
+}
+
+.cubes {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.game-scores {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.result-text {
+  color: hsla(0, 100%, 31%, 0.8);
+  font-size: 8rem;
+}

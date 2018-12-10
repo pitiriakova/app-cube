@@ -1,0 +1,14 @@
+.app-registration-form {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  margin: auto;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 4rem;
+  margin: 2rem;
+  outline: none;
+}

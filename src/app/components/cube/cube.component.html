@@ -1,0 +1,9 @@
+<div class="scene">
+  <div class="cube" appRotate [rotationType]="getRotationType()">
+    <div *ngFor="let positionType of positionTypes"
+         class="cube__face cube__face--{{positionType.type}}"
+         (click)="getResult()">
+      <span>Rotate</span>
+    </div>
+  </div>
+</div>

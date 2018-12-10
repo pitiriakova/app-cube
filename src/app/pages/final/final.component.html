@@ -1,0 +1,9 @@
+<div class="final-page">
+  <div *ngIf="winners.length > 0" class="winner-text">
+    Winner(s):
+    <div *ngFor="let winner of winners">
+      <span>{{ winner.name }} ! </span>
+    </div>
+    <button class="btn play-again" (click)="startNewGame()">Play again</button>
+  </div>
+</div>

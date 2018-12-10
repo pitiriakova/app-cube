@@ -1,0 +1,13 @@
+.final-page {
+  background-color: seagreen;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.winner-text {
+  font-size: 5rem;
+  color: rgb(221, 221, 221);
+}
